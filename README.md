@@ -53,4 +53,3 @@ CREATE TABLE `phones` (
 
 #### Add new contact:
 ![Alt text][4]
-#Phone-Book

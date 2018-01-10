@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add new contact</title>
+
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/alertify.css">
+    <link rel="stylesheet" href="css/add-contact.css">
+
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+</head>
+
+<body>
+
+<nav>
+    <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">Phone book</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="phone-book.html">Phone book</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="add-form-section card-panel">
+    <div class="container">
+        <div class="row">
+            <form class="col s12 add-form">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="name" type="text">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="address" type="text">
+                        <label for="address">Address</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="phone" type="text">
+                        <label for="phone">Phone number</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <button class="btn cyan waves-effect waves-light right" type="submit" name="action">Add contact
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<script src="js/base/api.js"></script>
+<script src="js/base/jquery-3.2.1.js"></script>
+<script src="js/base/materialize.js"></script>
+<script src="js/base/alertify.js"></script>
+<script src="js/add-contact.js"></script>
+
+</body>
+
+</html>
